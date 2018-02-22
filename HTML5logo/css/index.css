@@ -1,0 +1,215 @@
+
+body{
+	margin: 0;
+	padding:0;
+}
+.bg{
+	width: 800px;
+	height: 600px;
+	background: #F2F2F2;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+/* 	border: 1px solid yellow;
+	border-radius: 5%; */
+}
+.beam{
+	width: 1600px;
+	height: 20px;
+	background:#FFF;
+/* 	border:1px solid red; */
+	position: absolute;
+	left:-400px;
+	top:300px;
+/* 	border: 1px solid yellow; */
+}
+.logo{
+	width: 340px;
+	height: 385px;
+/* 	background: #CCC; */
+	position: absolute;
+	top:125px;
+	left:230px;
+}
+
+/* 盾牌左边部分 */
+.LShield_1{
+	width: 142px;
+	height: 343px;
+	background: #E15016;
+	position: absolute;
+	left: 32px;
+}
+.LShield_2{
+	width: 142px;
+	height: 100px;
+	background: #E15016;
+/* 	background: #3F0; */
+	transform:skewY(10deg);
+	position: absolute;
+	left: 32px;
+	top: 270px;
+}
+.LShield_3{
+	height: 348px;
+	width: 100px;
+	background: #E15016;
+/* 	background:blue; */
+	transform:skewX(5deg);
+	position: absolute;
+	left: 16px;
+}
+
+/* 盾牌右边部分 */
+.RShield{
+	width: 170px;
+	height: 385px;
+/* 	background: #ccc; */
+	position: absolute;
+	left:170px;
+/* 	border: 1px solid yellow; */
+}
+.RShield_1{
+	width: 142px;
+	height: 343px;
+	background: #E15016;
+}
+.RShield_2{
+	width: 142px;
+	height: 100px;
+	background: #E15016;
+	transform:skewY(-10deg);
+	position: absolute;
+	bottom: 15px;
+}
+.RShield_3{
+	width: 100px;
+	height: 357px;
+	background: #E15016;
+	transform:skewX(-4deg);
+	position: absolute;
+	top: 0;
+	right: 14px;
+}
+
+/* -------------------------右侧浅橘色部分 ------------------------*/
+.RSShield{
+	width: 170px;
+	height: 385px;
+	position: absolute;
+	left:156px;
+	transform: scale(0.82);
+}
+.RSShield_1{
+	width: 142px;
+	height: 343px;
+	background: #EE6812;
+}
+.RSShield_2{
+	width: 142px;
+	height: 100px;
+	background: #EE6812;
+	transform:skewY(-10deg);
+	position: absolute;
+	bottom: 15px;
+}
+.RSShield_3{
+	width: 100px;
+	height: 357px;
+	background: #EE6812;
+	transform:skewX(-4deg);
+	position: absolute;
+	top: 0;
+	right: 14px;
+}
+/* -------------------------右侧浅橘色部分 ------------------------
+
+/* -------------------------Five icon -------------------------*/
+/* Five left */
+.LFive_1{
+	width: 103px;
+	height: 43px;
+	background: #EBEBEB;
+	position: absolute;
+	right: 170px;
+	top: 70px;
+/* 	z-index: -1;只在绝对/相对定位时有用，此句无需使用 */
+}
+.LFive_2{
+	width: 93px;
+	height: 43px;
+	background: #EBEBEB;
+	position: absolute;
+	right: 170px;
+	top: 160px;
+}
+.LFive_3{
+	width: 93px;
+	height: 43px;
+	background: #EBEBEB;
+	position: absolute;
+	right: 170px;
+	top: 260px;
+	transform:skewY(10deg);
+}
+.LFive_4{
+	width: 43px;
+	height: 220px;
+	background: #EBEBEB;
+	position: absolute;
+	right: 230px;
+	top: 70px;
+	transform:skewX(5deg);
+}
+.LFive_5{
+	width: 50px;
+	height: 30px;
+	background: #E15016;
+	position: absolute;
+	top:203px;
+	left: 66px;
+}
+
+/* Five right */
+.RFive_1{
+	width: 103px;
+	height: 43px;
+	background: #FFF;
+	position: absolute;
+	left: 170px;
+	top: 70px;
+}
+.RFive_2{
+	width: 93px;
+	height: 43px;
+	background: #FFF;
+	position: absolute;
+	left: 170px;
+	top: 160px;
+}
+.RFive_3{
+	width: 93px;
+	height: 43px;
+	background: #FFF;
+	position: absolute;
+	left: 170px;
+	top: 260px;
+	transform:skewY(-10deg);
+}
+.RFive_4{
+	width: 43px;
+	height: 220px;
+	background: #FFF;
+	position: absolute;
+	left: 230px;
+	top: 70px;
+	transform:skewX(-5deg);
+}
+.RFive_5{
+	width: 50px;
+	height: 47px;
+	background: #EE6812;
+	position: absolute;
+	top:113px;
+	right: 60px;
+}
