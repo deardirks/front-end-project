@@ -1,0 +1,149 @@
+/*---整体设置-------*/
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	width:100%;
+	box-sizing: border-box;
+}
+*,*:after,*:before{
+	box-sizing: inherit;
+}
+body{
+	font-family:'Droid Serif',serif;
+	background-color:#F4FAE0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*---header,nav-------*/
+.wrap{
+	width:100%;
+}
+header{
+	
+}
+.container{
+	padding:20px;
+	width:80%;
+	margin:0px auto;
+}
+nav ul li{
+	margin-right:30px;
+	padding:5px;
+	float: left;
+}
+/*
+	左浮动（脱离标准流，“背叛师门”）
+	1.对自身：设置完左浮动的元素，会自动向其父元素的左侧靠拢
+	2.对兄弟：其后的兄弟元素会围绕着它周围排列
+	3.对父元素： 父元素的高度会变小
+	(父元素的高度，是由处在标准流中的子元素决定的)
+
+	清除浮动
+ */
+nav ul{
+	overflow: hidden;
+	/* overflow：将元素溢出的部分设置为隐藏*/
+}
+nav ul li a{
+	font-size: 1.225em;  /*1 em = 16px  20px*/
+	font-weight: bold;
+	color:#194700;
+}
+nav ul:after{
+	/*
+		:after 伪元素
+		在ul标签中增加一个元素，这个元素没有在html代码中显示
+		但是可以为其增加css样式
+		既达到在html页面中不增加冗余标签的目的，
+		同时又可以拥有样式的效果
+	 */
+	content:'';
+	display: block;
+	clear: both;
+}
+.logo img{
+	width:130px;
+	height:130px;
+	float:right;
+	margin-right:20px;
+	margin-top:-30px;
+}
+/**---------banner----------------------------**/
+#banner{
+	background:url(../images/banner.png) no-repeat left top;
+	background-size: 100%;
+	min-height: 480px;
+}
+#banner .banner-info{
+	margin-top:150px;
+	clear: both;
+	float:right;
+	width:50%;
+	background-color:rgba(255,255,255,0.65);
+	padding:25px;
+
+}
+ .banner-info h3{
+ 	font-size: 1.5em;
+ 	color:#395A03;
+ 	margin:5px 0px 9px;
+ }
+ .banner-info p{
+ 	font-size: 0.875em;
+ 	line-height: 1.5em;
+ }
+  .banner-info a{
+  	color:white;
+  	background:#2F5703;
+  	display:block;
+  	padding:8px;
+  	width:90px;
+  	margin:10px 0px 5px;
+  	font-size:0.875em;
+  }
+ /*-------------mission------------------------------*/
+ .mission-header{
+ 	text-align:center; /*文字居中*/
+ 	font-size:1.5em;
+ 	color:#159400;
+ }
+ .mission-div{
+ 	margin-top:30px;
+ 	box-sizing:border-box;
+ 	width:50%;
+ 	float:left;
+ }
+ .mission-left{
+ 	padding:10px;
+ 	border:3px solid green;
+ }
+.mission-left img{
+  	width:100%;
+  	height:100%;
+}
+.mis-div {
+	clear: both;
+}
+.mis-div img{
+	border::;px solid red;
+	border-radius: 50%;
+	float:left;
+	width:70px;
+	height:70px;
+}
+.mis-div h3{
+	color:#6F5C03;
+	font-size: 1em;
+	margin:10px 75px 7px;
+}
+.mis-div p{
+	font-size: 0.875em;
+	line-height: 1.5em;
+	margin-left:76px;
+}

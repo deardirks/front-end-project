@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>浮动的特性</title>
+	<style type="text/css">
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	ul,li{
+		list-style: none;
+		padding:5px;
+		margin:10px;
+	}
+	.father{
+		background-color:#F4FAE0;
+	}
+	.son1{
+		height:50px;
+		float: left;
+	}
+	.son2{
+		height:70px;
+		float: left;
+	}
+	.son3{
+		height:75px;
+		float: left;
+	}
+	.son3:after{
+		content:'';
+		display: block;
+		clear: both;
+	}
+	</style>
+</head>
+
+<body>
+	<ul class="father">
+		<li class="son1">首页</li>
+		<li class="son2">全球问题</li>
+		<li class="son3">解决方案</li>
+		<li class="clearfix"></li>
+	</ul>
+</body>
+</html>

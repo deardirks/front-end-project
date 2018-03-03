@@ -1,0 +1,190 @@
+html{
+	font-family: sans-serif;
+	/*为元素制定的任何内边距，外边距都将在已设定的宽度和高度内进行绘制*/
+	box-sizing:border-box;
+	font-size:100%;
+}
+*，*:before,*:after{
+	/*规定应从父元素继承box-sizing属性的值*/
+	box-sizing:inherit;
+}
+*{
+	border:0;
+	padding:0;
+	margin:0;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width:100%;
+	background:#F4FAE0;
+	font-family: "Roboto Slab",serif;
+}
+body a{
+	text-decoration: none;
+	transition:0.5s all; 	/*过渡时长：0.5s*/
+}
+img{
+	max-width: 100%;
+	height:auto;
+	width:auto;
+	vertical-align: middle;
+}
+.clearfix{
+	clear:both;
+}
+/********************************************************************************/
+
+.container{
+	margin:0px auto;
+	padding:0px 15px;
+	width:80%;
+}
+/****header,nav****/
+header{
+	width:100%;
+	background-color:#F4FAE0;
+	padding:33px 0;
+	position:relative;
+}
+nav ul{
+	margin:0px;padding:0px;
+}
+nav ul li{
+	margin:0px 35px;
+	/*将其设置为块级元素   这很好用哦，可以不用在设置浮动了*/
+	display:inline-block;
+}
+nav ul li a{
+	font-family: 'Droid Serif',serif;
+	color: #0F3700;
+	font-size: 1.25em;   /*20px / 16px = 1.25 */
+	font-weight: bold;
+}
+nav ul li a:hover,nav ul li a:active{
+	color:#000;
+}
+/*复选框用于切换菜单的开合状态*/
+nav input[type="checkbox"],.menu{
+	position:absolute;
+	left:2%;
+	top:20px;
+	display:none;	/*隐藏不显示*/
+}
+.logo{
+	position:absolute;
+	right:10%;
+	top:0%;
+	width:130px; height:130px;
+}
+/****banner****/
+.banner{
+	width:100%;
+	background:url(../images/banner.png) no-repeat 0px 0px;
+	background-size:100%;
+	min-height:480px;
+	overflow:hidden;
+}
+.banner-info{
+	width:30%;
+	background:rgba(255,255,255,0.65);
+	padding:30px 30px;
+	float:right;
+	margin-top:100px;
+}
+.banner-info h3{
+	font-family: 'Droid Serif',serif;
+	font-size:1.5em;
+	color:#159400;
+}
+.banner-info p{
+	font-size:0.875em;	/*14px / 16px = 0.875*/
+	line-height: 1.8em;
+	color:#000;
+	margin:9px 0 15px;
+}
+.banner-info a{	
+	display:inline-block;
+	padding:7px 15px;
+	background:#159400;
+	font-size:1em;
+	color:#fff;
+}
+a.button:hover,
+a.button:focus,
+a.button:active{
+	background:#6cd79c;
+	text-decoration: underline;
+}
+.banner:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+/*---mission----*/
+.mission{
+	bakcground-color:#fffdd2;
+	padding:80px 0px;
+}
+.mission-header h3{
+	font-family: 'Droid Serif',serif;
+	font-size: 2em;
+	color:#159400;
+	text-align: center;
+}
+.mission-container{
+	margin-top:35px;
+}
+.mission-div{
+	
+	box-sizing: border-box;
+	width:50%;
+	float:left;
+	position:relative;
+	min-height:1px;
+	padding:0px 15px;
+}
+.mission-left img{
+	box-sizing: border-box;
+	border:3px solid green;
+	padding:10px;
+	width:100%;
+}
+.mis-one{
+	margin-bottom:30px;
+}
+.mis-left{
+	width:15%;
+	float:left;
+}
+.mis-left img{
+	width:100%;
+	/*border:1px solid black;*/
+	border-radius: 50%;
+}
+.mis-right{
+	width:82%;
+	float:right;
+}
+.mis-right h3{
+	font-size:1.25em;
+	color:#3B5C03;
+}
+.mis-right p{
+	font-size: 0.875em;
+	color:#000;
+	line-height:1.8em;
+	margin:12px 0 0 0;
+}
+/*****--------------footer-----------******/
+footer{
+	padding:18px 0;
+	background:#2D5711;
+}
+footer p{
+	margin:9px 0 0 0 ;
+	font-size: 0.875em;
+	color:#fff;
+	text-align: center;
+}

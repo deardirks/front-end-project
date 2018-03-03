@@ -1,0 +1,211 @@
+@media (max-width:1440px) {
+	.banner-info{
+		width:34%;
+		padding:22px;
+		margin-top:100px;
+	}
+}
+@media (max-width:1280px){
+	.banner-info{
+		width:32%;
+		padding:22px;
+		margin-top:190px;
+	}
+}
+@media (max-width:1200px) {
+	header{
+		padding:24px 0;
+	}
+	.logo{
+		right:4%;
+		width:13%;
+	}
+	nav>ul li{
+		margin:0 17px;
+	}
+	.logo img{
+		width:100%;
+	}
+	.banner{
+		min-height:456px;
+	}
+	.mission{
+		padding:70px 0;
+	}
+	.mis-right p{
+		margin:6px 0 0 0 ;
+	}
+	.mis-one{
+		margin-bottom: 26px;
+	}
+	.banner-info{
+	}
+}
+@media (max-width:1024px) {
+	.banner-info{
+		padding:22px 22px;
+		margin-top:170px;
+		width:40%;
+	}
+	.banner-info h3{
+		font-size: 1.4em;
+	}
+	.banner-info a{
+		font-size:0.875em;
+	}
+}
+@media (max-width:768px) {
+	nav>ul li a{
+		font-size:1em;
+	}
+	.banner{
+		min-height:360px;
+	}
+	.banner-info{
+		width:55%;
+		padding:13px;
+		margin-top: 150px;
+	}
+	.banner-info h3{
+		font-size:1.25em;
+	}
+	.banner-info p{
+		font-size:0.75em;
+	}
+	.mission{
+		padding:55px 0;
+	}
+	.mission-left,.mission-right{
+		float:left;
+		width:50%;
+	}
+	.mission-right{
+		padding-left:0px;
+	}
+	.mis-right{
+		width:80%;
+		float:right;
+	}
+	.mis-left{
+		width:16%;
+	}
+	.mis-bottom{
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:640px) {
+	.container{
+		padding:0px 0px;
+	}
+	header{
+		padding:25px 0;
+	}
+	nav{
+		position:relative;
+	}
+	.menu{
+		display:block;
+		cursor:pointer;
+		position:absolute;
+		left:4%;
+		top:-10px;
+	}
+	.menu img{
+		box-sizing: border-box;
+		width:30px;
+		height:30px;
+		border:2px solid #272636;
+		border-radius:50%;
+		padding:2px;
+	}
+	nav>ul{
+		display:none;
+	}
+	nav input[type="checkbox"]:checked ~ ul{
+		transition:1s all;
+		display:block;
+		position:absolute;
+		width:80%;
+		left:20px;
+		top:25px;
+	}
+	nav ul li{
+		width:100%;
+		border-bottom:2px solid #4B4B4B;
+		display:inline-block;
+		text-align:center;
+		margin:0;
+		padding:0;
+		background-color:rgba(0,0,0,0.75);
+	}
+	nav ul li a{
+		font-weight: normal;
+		font-size:0.675em;
+		font-family: "宋体";
+		line-height: 1.4em;
+		color:#F4F4F4;
+		display:block;
+		margin:8px 0;
+	}
+	div.logo {
+		width:20%;
+		right:4%;
+		top:0%;
+	}
+	.banner{
+		min-height: 200px;
+	}
+	.banner-info{
+		width:60%;
+		padding:10px 10px;
+		margin-top:20%;
+	}
+	.banner-info h3{
+		font-size: 1em;
+	}
+	.banner-info p{
+		white-space:nowrap; 
+		text-overflow: ellipsis;
+		overflow:hidden;
+	}
+	.mission{
+		padding:25px 0px;
+	}
+	.mission-header h3{
+		font-size:1.25em;
+	}
+	.mission-container{
+		margin-top:35px;
+	}
+	.mis-right h3{
+		font-size: 1em;
+	}
+	.mission-left,.mission-right{
+		width:100%;
+		float:left;
+		padding:0;
+	}
+	.mission-right{
+		margin:30px 0 0 0 ;
+	}
+	.mis-left{
+		width:13%;
+		margin-top:3px;
+	}
+	.mis-right{
+		font-size:0.675em;
+		width:82%;
+	}
+	.mis-right p{
+		margin:10px 0 0 0 ;
+	}
+	.mis-one{
+		margin-bottom:24px;
+	}
+	.mis-one:nth-child(3){
+		margin:0;
+	}
+	footer{
+		margin:0 0 20px 0;
+	}
+}

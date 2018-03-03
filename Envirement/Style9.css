@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	}
+body{
+	font-size:12px;
+	font-family:"宋体";
+	color:#000;}
+a:link, a:visited{
+    color:#3e3e3e;
+	font-size:15px;
+	text-decoration:none;}
+a:hover{
+	color:#399;
+	text-decoration:underline;}
+.all{
+	width:310px; 	
+	/*因为你图片的宽度比这个div的宽度要大，再加上你的padding，所以图片就溢出了*/
+	height:auto;
+	border:1px solid #ccc;
+	padding:15px;
+	margin:80px auto;
+	/* position:relative; 没用，删除*/}
+.all img{
+	/*如果图片的宽度比承载它的容器div要大，可使用如下方法*/
+	width:100%;
+	height:100%;
+}
+	/*  这用来干嘛
+}
+.fly{
+	position:absolute;
+	left:0;
+	top:0;}	
+	*/
+h3{
+	margin-top:20px;
+	line-height:20px;
+	}	
+.box{
+	overflow:hidden;
+	margin-top:25px;
+	}
+.p1{
+	font-size:14px;
+	color:gray;
+	float:left;
+	}
+.p1 strong{
+	font-size:30px;
+	color:#ed5238;
+	font-family:"微软雅黑";}
+.p2{
+	float:right;
+	width:80px;
+	text-align:right;
+	line-height:20px;}
+.p2 b{
+	color: #ed5238;}
+
+span.buy{
+	
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

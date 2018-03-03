@@ -1,0 +1,169 @@
+/*-----------------整体设计-------------------------------*/
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	width:100%;
+	box-sizing: border-box;
+	font-family:'Droid Serif',serif;
+}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+ul,li{
+	list-style-type: none;
+}
+body{
+	width:100%;
+	background-color:#F4FAE0;
+	font-family:'Droid Serif',serif;
+}
+body a{
+	text-decoration: none;
+	transition:0.5s all; 	/*过渡时长：0.5s*/
+}
+/*-----------------header,nav-----------------------------------------*/
+haader{
+	width:100%;
+	padding:0px 15px;
+}
+.container{
+	width:80%;
+	margin:0px auto;
+	padding:33px 0px;
+}
+nav ul{
+	overflow:hidden;
+}
+nav ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+nav ul li{
+	float: left;
+	margin:0px 35px;	/*上下padding = 0px，左右margin = 35px*/
+}
+nav ul li a{
+	font-weight: bold;
+	color:#487606;
+	font-size:1.25em;			/*20 ÷ 16 = 1.25em*/
+	font-family:'Droid Serif',serif;
+}
+.logo img{
+	float:right;
+	width:130px;
+	height:130px;
+	margin-top: -38px;
+	margin-right:5%;
+}
+/*-------------------banner------------------------------------------*/
+#banner{
+	background:url(../images/banner.png) no-repeat left top;
+	background-size: 100%;
+	min-height: 480px;
+	width:100%;
+}
+.container{
+}
+.banner-info{
+	clear: both;
+	float:right;
+	width:35%;
+	background:rgba(255,255,255,0.65);
+	padding:30px 30px;
+	margin-top:140px;
+}
+.banner-info h3{
+	font-family:'Droid Serif',serif;
+	color:#365903;
+	font-size: 1.5em;
+}
+.banner-info p{
+	margin:9px 0px 15px;
+	font-size: 0.875em;
+	line-height: 1.8em;
+}
+.banner-info a{
+	background-color:#679A0E;
+	display:block;
+	padding:7px 5px;
+	width:90px;
+	color:white;
+}
+.banner:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+/*-------------------mission-----------------------------------*/
+#mission{
+	padding:80px 0px;
+}
+.mission-header h3{
+	font-family: 'Droid Serif',serif;
+	text-align: center;
+	font-size: 2em;
+	color:#1E5201;
+}
+.mission-container{
+	margin-top:35px;
+}
+.mission-div{
+	float:left;
+	box-sizing:border-box;
+	width:50%;
+	padding:0px 15px;
+	position:relative;
+}
+.mission-div img{
+	border:3px solid green;
+	width:100%;
+	padding:10px;
+	height:100%;
+}
+.mis-one{
+	margin-bottom: 30px;
+}
+.mis-one .mis-left{
+	float:left;
+	width:15%;
+}
+.mis-one .mis-left img{
+	width:100%;
+	border:0px;
+	border-radius:50%;
+	padding:0px;
+}
+.mis-one .mis-right{
+	width:82%;
+	float:right;
+}
+.mis-one .mis-right h3{
+	font-size:1.25em;
+	color:#115114;
+}
+.mis-one .mis-right p{
+	font-size: 0.875em;
+	line-height: 1.8em;
+	margin-top:12px;
+}
+.mis-one:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+#mission:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+/*-----------footer----------------------------*/
+footer{
+	background-color:#4B611B;
+}
+footer h3{
+	text-align: center;
+	line-height:2em;
+}
