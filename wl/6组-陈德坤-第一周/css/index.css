@@ -1,0 +1,223 @@
+body,div,h1,h3{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 1920px;
+    height: 1080px;
+    border: 1px solid red;
+}
+
+
+/*************leftsidebar**************/
+.leftsidebar{
+    width: 265px;
+    height: 1080px;
+    background: #3d485d;
+    float: left;
+}
+.logo{
+    width: 265px;
+    height: 65px;
+    line-height: 65px;
+    background: #1cc6fd;
+}
+.logo h1{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.logo span{
+    font-size: 27px;
+    color: #0092f3;
+}
+
+
+
+/*****************course****************/
+.course_list h3{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    background: #354052;
+    color: #abaeb3;
+
+}
+
+.course_list li,.course_list span{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: #667084;
+    background: #3d485d;
+}
+.course_list span{
+    padding-left: 30px;
+}
+
+.course_list li a{
+    text-decoration: none;
+    color: #667084;
+    padding-left: 30px;
+}
+
+.course_list li a:hover{
+    display: block;
+    width: 230px;
+    height: 60px;
+    background: #20b3fb;
+    color: #fff;
+    border-left: 5px solid #0877b2;
+}
+
+
+/*************stu_client**************/
+
+.stu_client{
+    width: 1655px;
+    height: 1080px;
+    float: right;
+    background: #edf2f6;
+}
+.header{
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #e2e2e2;
+
+}
+#gap{
+    padding:0  15px;
+}
+.user{
+    margin-left: 57px;
+    color: #a0a0a0;
+    float: left;
+}
+
+
+.dev{
+    float: right;
+    margin-right: 60px;
+}
+
+
+
+
+.li_con{
+    width: 360px;
+    height: 270px;
+    background: #fff;
+}
+
+
+
+.content_tit{
+    background: #fafbfd;
+    height: 50px;
+    line-height: 50px;
+    color: #4d5b67;
+
+}
+
+.content_tit span{
+    padding-left:70px;
+}
+.content_tit a{
+    text-decoration: none;
+    color: #cbcfd3;
+}
+
+.content_tit a:hover{
+    color: #70aee0;
+}
+.content_tit span:hover{
+    color: #70aee0;
+}
+
+.btn{
+    background: #1ab5fb;
+    border: 1px solid #1ab5fd;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 2px;
+    color: #fff;
+    float: right;
+}
+
+
+.kc{
+    position: relative;
+    width: 360px;
+    height: 270px;
+    background: #fff;
+    margin-top: 65px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.doc_tit{
+    position: absolute;
+    bottom: 55px;
+    background: rgba(0,0,0,0.5);
+    height: 30px;
+    line-height: 30px;
+    width: 360px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.control{
+    position: absolute;
+    bottom: 0px;
+    left:50px;
+
+}
+.control a   {
+    color: #d6d7d8;
+}
+
+.control a:hover{
+    color: #f5a425;
+}
+.control span{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+
+/*page*/
+
+.page{
+
+    width: 50%;
+    margin: 0 auto;
+}
+.page li{
+    display: inline-block;
+}
+
+.page li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    background: #e7e7e7;
+    color: #a8a8a8;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.page li a:hover{
+    background: #16a4fa;
+    color: #fff;
+}
