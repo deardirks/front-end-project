@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>adToggle</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <style>
+        .ad h1{
+            width: 100%;
+            /*height: 100px;*/
+            line-height: 100px;
+            text-align: center;
+            background: #000;
+        }
+        .active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="ad active">
+    <h1>LED显示屏<br>时尚时尚最时尚</h1>
+</div>
+<script>
+    var ad = $('div.ad');
+    function adToggle() {
+        if(ad.hasClass('active')){
+            ad.removeClass('active');
+        }else{
+            ad.addClass('active');
+        }
+    }
+    setInterval(adToggle,200);
+</script>
+</body>
+</html>
